@@ -43,12 +43,6 @@ function navbarActiveSection(section) {
     });
 }
 
-
-function classToggle() {
-    const navs = document.querySelectorAll('.Navbar__Items')
-
-    navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
-}
 /**
  * End Helper Functions
  * Begin Main Functions
